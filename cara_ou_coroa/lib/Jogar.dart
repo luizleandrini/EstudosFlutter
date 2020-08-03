@@ -19,7 +19,7 @@ class _JogarState extends State<Jogar> {
     Navigator.push(  // definir rota ou tela que queira abrir
       context, 
       MaterialPageRoute(                         
-        builder: (context) => Resultado("Cara"),
+        builder: (context) => Resultado(resultado),
       )
       );
   }
