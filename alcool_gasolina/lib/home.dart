@@ -48,8 +48,7 @@ class _State extends State<Home> {
       body: Container(
         
         child: SingleChildScrollView(  //usa isso quando tem varios conteudos para ser exibidos
-          padding: EdgeInsets.all(32
-          ),
+          padding: EdgeInsets.all(32),
           child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: <Widget>[

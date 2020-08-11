@@ -23,12 +23,12 @@ class _InicioState extends State<Inicio> {
   @override
   void initState() {
     super.initState();
-    print("chamado 1 - initState");
+    print("chamado 1 - initState"); // quando quer fazer configuraçoes iniciais antes de carregar interface 
   }
   @override
   void didChangeDependencies() {
     super.didChangeDependencies();
-    print("chamado 2 - didChangeDependences");
+    print("chamado 2 - didChangeDependences"); // quando para construir a interface vc possui dependencias 
   }
 
   @override
